@@ -70,6 +70,7 @@
 		F893EFF920B489330006827B /* RoundBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		F8C3EB5620C5E2A800F65C74 /* FancyBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		F8C3EB5820C5E47400F65C74 /* FancyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
+		F8C3EB5A20C5EFAB00F65C74 /* Socialise.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Socialise.entitlements; sourceTree = "<group>"; };
 		FFDC2692AF63AD7B3F07F6BD /* Pods-SocialiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialiseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialiseTests/Pods-SocialiseTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,6 +150,7 @@
 		F852969320AF85AE00BAD3CD /* Socialise */ = {
 			isa = PBXGroup;
 			children = (
+				F8C3EB5A20C5EFAB00F65C74 /* Socialise.entitlements */,
 				F893EFF620B487D70006827B /* Utilities */,
 				F85296C420AF89E800BAD3CD /* Model */,
 				F85296C520AF89EE00BAD3CD /* Controller */,
@@ -287,6 +289,11 @@
 				TargetAttributes = {
 					F852969020AF85AE00BAD3CD = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					F85296A420AF85B300BAD3CD = {
 						CreatedOnToolsVersion = 9.4;
@@ -354,6 +361,9 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Socialise/Pods-Socialise-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -361,6 +371,9 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -612,6 +625,7 @@
 			baseConfigurationReference = A23657A1B846E37AC5F43072 /* Pods-Socialise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Socialise/Socialise.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67H43KT2PM;
 				INFOPLIST_FILE = Socialise/Info.plist;
@@ -631,6 +645,7 @@
 			baseConfigurationReference = 1FE4F917B54C0A57E8B76060 /* Pods-Socialise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Socialise/Socialise.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67H43KT2PM;
 				INFOPLIST_FILE = Socialise/Info.plist;

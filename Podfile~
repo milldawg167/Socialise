@@ -6,6 +6,10 @@ target 'Socialise' do
   use_frameworks!
 
   # Pods for Socialise
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Storage'
 
   target 'SocialiseTests' do
     inherit! :search_paths

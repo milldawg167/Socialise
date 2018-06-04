@@ -10,7 +10,8 @@ target 'Socialise' do
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
   pod 'Firebase/Storage'
-
+  pod 'FBSDKLoginKit'
+  
   target 'SocialiseTests' do
     inherit! :search_paths
     # Pods for testing
