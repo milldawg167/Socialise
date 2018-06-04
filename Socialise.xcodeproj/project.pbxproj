@@ -10,13 +10,18 @@
 		0067AC71265AC3F857C1ED2A /* Pods_SocialiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0885D889BC28F183095406B3 /* Pods_SocialiseTests.framework */; };
 		41562B1E854274ED44C05B7D /* Pods_Socialise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB26FDBECB462CD577CA7A5 /* Pods_Socialise.framework */; };
 		F852969520AF85AE00BAD3CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852969420AF85AE00BAD3CD /* AppDelegate.swift */; };
-		F852969720AF85AE00BAD3CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852969620AF85AE00BAD3CD /* ViewController.swift */; };
+		F852969720AF85AE00BAD3CD /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F852969620AF85AE00BAD3CD /* SignInVC.swift */; };
 		F852969A20AF85AE00BAD3CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F852969820AF85AE00BAD3CD /* Main.storyboard */; };
 		F852969C20AF85B200BAD3CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F852969B20AF85B200BAD3CD /* Assets.xcassets */; };
 		F852969F20AF85B200BAD3CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F852969D20AF85B200BAD3CD /* LaunchScreen.storyboard */; };
 		F85296AA20AF85B300BAD3CD /* SocialiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85296A920AF85B300BAD3CD /* SocialiseTests.swift */; };
 		F85296B520AF85B300BAD3CD /* SocialiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85296B420AF85B300BAD3CD /* SocialiseUITests.swift */; };
 		F85296C320AF865000BAD3CD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F85296C220AF865000BAD3CD /* GoogleService-Info.plist */; };
+		F893EFF520B487890006827B /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893EFF420B487890006827B /* FancyView.swift */; };
+		F893EFF820B487E50006827B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893EFF720B487E50006827B /* Constants.swift */; };
+		F893EFFA20B489330006827B /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893EFF920B489330006827B /* RoundBtn.swift */; };
+		F8C3EB5720C5E2A800F65C74 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3EB5620C5E2A800F65C74 /* FancyBtn.swift */; };
+		F8C3EB5920C5E47400F65C74 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3EB5820C5E47400F65C74 /* FancyField.swift */; };
 		F9155563BAFF54E138C94203 /* Pods_SocialiseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F668C6845EEFD1BE1C8672 /* Pods_SocialiseUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +53,7 @@
 		CF458AEDA7CD372E0BBD0617 /* Pods-SocialiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialiseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialiseTests/Pods-SocialiseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F852969120AF85AE00BAD3CD /* Socialise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Socialise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F852969420AF85AE00BAD3CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F852969620AF85AE00BAD3CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F852969620AF85AE00BAD3CD /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		F852969920AF85AE00BAD3CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F852969B20AF85B200BAD3CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F852969E20AF85B200BAD3CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +65,11 @@
 		F85296B420AF85B300BAD3CD /* SocialiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialiseUITests.swift; sourceTree = "<group>"; };
 		F85296B620AF85B300BAD3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F85296C220AF865000BAD3CD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F893EFF420B487890006827B /* FancyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		F893EFF720B487E50006827B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F893EFF920B489330006827B /* RoundBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		F8C3EB5620C5E2A800F65C74 /* FancyBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
+		F8C3EB5820C5E47400F65C74 /* FancyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		FFDC2692AF63AD7B3F07F6BD /* Pods-SocialiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialiseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialiseTests/Pods-SocialiseTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,8 +149,11 @@
 		F852969320AF85AE00BAD3CD /* Socialise */ = {
 			isa = PBXGroup;
 			children = (
+				F893EFF620B487D70006827B /* Utilities */,
+				F85296C420AF89E800BAD3CD /* Model */,
+				F85296C520AF89EE00BAD3CD /* Controller */,
+				F85296C620AF89F500BAD3CD /* View */,
 				F852969420AF85AE00BAD3CD /* AppDelegate.swift */,
-				F852969620AF85AE00BAD3CD /* ViewController.swift */,
 				F852969820AF85AE00BAD3CD /* Main.storyboard */,
 				F852969B20AF85B200BAD3CD /* Assets.xcassets */,
 				F852969D20AF85B200BAD3CD /* LaunchScreen.storyboard */,
@@ -166,6 +179,40 @@
 				F85296B620AF85B300BAD3CD /* Info.plist */,
 			);
 			path = SocialiseUITests;
+			sourceTree = "<group>";
+		};
+		F85296C420AF89E800BAD3CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F85296C520AF89EE00BAD3CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F852969620AF85AE00BAD3CD /* SignInVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F85296C620AF89F500BAD3CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F893EFF420B487890006827B /* FancyView.swift */,
+				F893EFF920B489330006827B /* RoundBtn.swift */,
+				F8C3EB5620C5E2A800F65C74 /* FancyBtn.swift */,
+				F8C3EB5820C5E47400F65C74 /* FancyField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F893EFF620B487D70006827B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F893EFF720B487E50006827B /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -385,8 +432,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F852969720AF85AE00BAD3CD /* ViewController.swift in Sources */,
+				F8C3EB5720C5E2A800F65C74 /* FancyBtn.swift in Sources */,
+				F852969720AF85AE00BAD3CD /* SignInVC.swift in Sources */,
+				F893EFFA20B489330006827B /* RoundBtn.swift in Sources */,
 				F852969520AF85AE00BAD3CD /* AppDelegate.swift in Sources */,
+				F893EFF520B487890006827B /* FancyView.swift in Sources */,
+				F8C3EB5920C5E47400F65C74 /* FancyField.swift in Sources */,
+				F893EFF820B487E50006827B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
