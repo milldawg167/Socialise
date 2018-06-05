@@ -20,6 +20,7 @@
 		F893EFF520B487890006827B /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893EFF420B487890006827B /* FancyView.swift */; };
 		F893EFF820B487E50006827B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893EFF720B487E50006827B /* Constants.swift */; };
 		F893EFFA20B489330006827B /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F893EFF920B489330006827B /* RoundBtn.swift */; };
+		F8BCC8FA20C735A500EFA044 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BCC8F920C735A500EFA044 /* FeedVC.swift */; };
 		F8C3EB5720C5E2A800F65C74 /* FancyBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3EB5620C5E2A800F65C74 /* FancyBtn.swift */; };
 		F8C3EB5920C5E47400F65C74 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3EB5820C5E47400F65C74 /* FancyField.swift */; };
 		F9155563BAFF54E138C94203 /* Pods_SocialiseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F668C6845EEFD1BE1C8672 /* Pods_SocialiseUITests.framework */; };
@@ -68,6 +69,7 @@
 		F893EFF420B487890006827B /* FancyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		F893EFF720B487E50006827B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F893EFF920B489330006827B /* RoundBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		F8BCC8F920C735A500EFA044 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		F8C3EB5620C5E2A800F65C74 /* FancyBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyBtn.swift; sourceTree = "<group>"; };
 		F8C3EB5820C5E47400F65C74 /* FancyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		F8C3EB5A20C5EFAB00F65C74 /* Socialise.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Socialise.entitlements; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				F852969620AF85AE00BAD3CD /* SignInVC.swift */,
+				F8BCC8F920C735A500EFA044 /* FeedVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -376,6 +380,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -446,6 +451,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8C3EB5720C5E2A800F65C74 /* FancyBtn.swift in Sources */,
+				F8BCC8FA20C735A500EFA044 /* FeedVC.swift in Sources */,
 				F852969720AF85AE00BAD3CD /* SignInVC.swift in Sources */,
 				F893EFFA20B489330006827B /* RoundBtn.swift in Sources */,
 				F852969520AF85AE00BAD3CD /* AppDelegate.swift in Sources */,
